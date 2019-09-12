@@ -79,3 +79,66 @@ p {
         text-shadow: 9px 9px 6px darkgrey;
     }
 } */
+
+label {
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 95%;
+    height: 1.5em;
+    padding: 0.5rem;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #12263f;
+    background-color: #fff;
+    border: 1px solid #d2ddec;
+    border-radius: 5px;
+}
+
+.card {
+    display: block;
+    margin-bottom: 1.5rem;
+    border-color: #edf2f9;
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 30%;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0.2rem 0.3rem #7294be;
+}
+
+.formHead {
+    text-align: center;
+    font-size: 40px;
+}
+
+.submit {
+    color: white;
+    width: 99%;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: -2px;
+    margin-right: 3px;
+}
+
+.small {
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+.small a {
+    text-decoration: none;
+    color: rgb(36, 36, 75);
+}
+
+.small a:hover {
+    font-weight: bolder;
+}
