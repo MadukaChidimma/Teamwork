@@ -19,7 +19,7 @@
     <header>
       <div class="navbar">
         <div class="container">
-          <a href="index.html"
+          <a href="dashboard.html"
             ><img class="nav_brand top" src="./../images/logo.png" alt="Logo"
           /></a>
           <div class="nav">
@@ -33,11 +33,14 @@
               </li>
               <li>
                 <button>
-                  <a href="signin.html">Sign In</a>
+                  <a href="privateArticle.html">Private Articles</a>
                 </button>
               </li>
               <li>
                 <button><a href="contactUs.html">Contact Us</a></button>
+              </li>
+              <li>
+                <button><a href="landingPage.html">Sign Out</a></button>
               </li>
             </ul>
           </div>
@@ -45,42 +48,26 @@
       </div>
     </header>
     <section>
-      <div class="card">
-        <div class="formHead">Create An Account</div>
-        <div class="small">Please fill in all fields</div>
-        <form action="">
-          <label for="">Full Name</label>
+      <div class="container">
+        <h1>Write An Article</h1>
+        <form action="./dashboard.html">
+          <div for="title">Title</div>
+          <input type="text" placeholder="Title" class="edit" />
+          <div for="status">Status</div>
+          <select name="status" class="edit1">
+            <option value="public" selected>Public</option>
+            <option value="private">Private</option>
+          </select>
+          <label class="allow">Allow Comments</label>
           <input
-            type="text"
-            placeholder="Full Name"
-            class="form-control"
-            required
+            type="checkbox"
+            checked="checked"
+            name="allowComments"
+            class="good"
           />
-          <label for="">Email Address</label>
-          <input
-            type="email"
-            placeholder="Email Address"
-            class="form-control"
-            required
-          />
-          <label for="">Password</label>
-          <input
-            type="password"
-            placeholder="Password"
-            class="form-control"
-            required
-          />
-          <label for="">Confirm Password</label>
-          <input
-            type="password"
-            placeholder="Confirm Password"
-            class="form-control"
-            required
-          />
-          <button type="submit" class="submit">Register</button>
-          <div class="small">
-            Already have an account? <a href="./signin.html">Sign In</a>
-          </div>
+          <div>Tell Us Your Story:</div>
+          <textarea name="body" class="form-control1"></textarea>
+          <button type="submit" value="Save">Save</button>
         </form>
       </div>
     </section>
