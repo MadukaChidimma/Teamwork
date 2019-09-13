@@ -142,3 +142,24 @@ label {
 .small a:hover {
     font-weight: bolder;
 }
+
+.card2 {
+    display: block;
+    margin-bottom: 1.5rem;
+    border-color: #edf2f9;
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 30%;
+    background-color: rgb(241, 241, 241);
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 0.2rem 0.3rem #7294be;
+}
+
+.small1 {
+    font-size: 15px;
+    text-align: center;
+    color: grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
